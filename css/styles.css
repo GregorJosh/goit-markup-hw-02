@@ -38,7 +38,7 @@ body {
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
-  font-size: 1.62rem;
+  font-size: 26px;
   line-height: 2.18rem;
 }
 
@@ -56,7 +56,8 @@ body {
 }
 
 .hero-header {
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 44px;
   line-height: 3.75rem;
 }
 
@@ -68,7 +69,7 @@ body {
 
 .hero-button {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 16px;
   line-height: 2rem;
 }
 
@@ -84,6 +85,7 @@ body {
 .section-header {
   color: var(--color3);
   font-weight: 700;
+  font-size: 36px;
   line-height: 2.62rem;
 }
 
@@ -100,26 +102,30 @@ body {
 
 .card-title {
   color: var(--color3);
+  font-size: 16px;
   font-weight: 500;
 }
 
 .card-description {
   color: var(--color4);
+  font-size: 16px;
 }
 
 .filter .button {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.62rem;
 }
 
 .groups .card-title {
   font-weight: 700;
+  font-size: 18px;
   line-height: 2.25rem;
 }
 
 .groups .card-description {
   line-height: 1.87rem;
+  font-size: 16px;
 }
 
 .footer .second-word {
