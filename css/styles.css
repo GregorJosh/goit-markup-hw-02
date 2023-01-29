@@ -10,6 +10,7 @@
 
 body {
   color: var(--color3);
+  font-size: 14px;
   font-family: Roboto, sans-serif;
 }
 
@@ -39,7 +40,6 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 2.18rem;
 }
 
 .logo > .first-word {
@@ -58,7 +58,7 @@ body {
 .hero-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 3.75rem;
+  line-height: 1.2;
 }
 
 .hero-section,
@@ -70,7 +70,7 @@ body {
 .hero-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 2rem;
+  line-height: 1.6;
 }
 
 .description-header {
@@ -79,14 +79,13 @@ body {
 
 .description-content {
   color: var(--color4);
-  line-height: 1.5rem;
+  line-height: 1.46;
 }
 
 .section-header {
   color: var(--color3);
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.62rem;
 }
 
 .link:hover,
@@ -96,36 +95,31 @@ body {
 }
 
 .card {
-  font-size: 1rem;
-  line-height: 1.17rem;
+  font-size: 16px;
 }
 
 .card-title {
   color: var(--color3);
-  font-size: 16px;
   font-weight: 500;
 }
 
 .card-description {
   color: var(--color4);
-  font-size: 16px;
 }
 
 .filter .button {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62rem;
+  line-height: 1.39;
 }
 
 .groups .card-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.25rem;
+  line-height: 1.71;
 }
 
 .groups .card-description {
-  line-height: 1.87rem;
-  font-size: 16px;
+  line-height: 1.60;
 }
 
 .footer .second-word {
@@ -134,5 +128,5 @@ body {
 
 .address {
   font-style: normal;
-  line-height: 1.5rem;
+  line-height: 1.46;
 }
