@@ -42,12 +42,8 @@ body {
   font-size: 26px;
 }
 
-.logo > .first-word {
+.logo > .logo-blue {
   color: var(--color1);
-}
-
-.header .second-word {
-  color: var(--color2);
 }
 
 .menu .link {
