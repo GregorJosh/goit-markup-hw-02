@@ -49,9 +49,9 @@ body {
   color: var(--color2);
 }
 
-.logo > .logo-blue {
-  color: var(--color1);
-}
+.header .logo {
+  color: var(--color2);
+} 
 
 .menu .link {
   color: var(--color3);
@@ -126,4 +126,8 @@ body {
 .address {
   font-style: normal;
   line-height: 1.46;
+}
+
+.logo > .logo-blue {
+  color: var(--color1);
 }
