@@ -23,6 +23,12 @@ body {
   color: var(--color4);
 }
 
+.link:hover,
+.link:focus,
+.link.active {
+  color: var(--color1);
+}
+
 .button {
   background-color: var(--bg-color2);
   color: var(--color3);
@@ -84,12 +90,6 @@ body {
   font-size: 36px;
 }
 
-.link:hover,
-.link:focus,
-.link.active {
-  color: var(--color1);
-}
-
 .card {
   font-size: 16px;
 }
@@ -118,7 +118,7 @@ body {
   line-height: 1.60;
 }
 
-.footer .second-word {
+.footer .logo {
   color: var(--color5);
 }
 
