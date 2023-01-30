@@ -23,12 +23,6 @@ body {
   color: var(--color4);
 }
 
-.link:hover,
-.link:focus,
-.link.active {
-  color: var(--color1);
-}
-
 .button {
   background-color: var(--bg-color2);
   color: var(--color3);
@@ -56,6 +50,12 @@ body {
 .menu .link {
   color: var(--color3);
   font-weight: 500;
+}
+
+.link:hover,
+.link:focus,
+.link.active {
+  color: var(--color1);
 }
 
 .hero-header {
