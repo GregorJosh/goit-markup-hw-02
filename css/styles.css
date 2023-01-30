@@ -48,6 +48,10 @@ body {
   font-size: 26px;
 }
 
+.logo span {
+  color: var(--color2);
+} 
+
 .logo > .logo-blue {
   color: var(--color1);
 }
@@ -117,6 +121,10 @@ body {
 .groups .card-description {
   line-height: 1.60;
 }
+
+.footer span {
+  color: var(--color5);
+} 
 
 .footer .logo {
   color: var(--color5);
