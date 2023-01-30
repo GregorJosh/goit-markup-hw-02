@@ -36,6 +36,17 @@ body {
   cursor: pointer;
 }
 
+.menu .link {
+  color: var(--color3);
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus,
+.link.active {
+  color: var(--color1);
+} 
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -46,17 +57,6 @@ body {
 .header .logo {
   color: var(--color2);
 } 
-
-.menu .link {
-  color: var(--color3);
-  font-weight: 500;
-}
-
-.link:hover,
-.link:focus,
-.link.active {
-  color: var(--color1);
-}
 
 .hero-header {
   font-weight: 900;
