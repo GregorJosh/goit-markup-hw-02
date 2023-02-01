@@ -16,6 +16,7 @@ body {
 
 .list-item {
   list-style-type: none;
+  display: inline;
 }
 
 .link {
@@ -56,12 +57,26 @@ body {
 
 .header .logo {
   color: var(--color2);
+  text-align: left;
 } 
+
+.header nav {
+  display: inline-block;
+  text-align: left;
+}
+
+.header .link {
+  text-align: right;
+}
 
 .hero-header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.2;
+}
+
+.hero-section {
+  text-align: center;
 }
 
 .hero-section,
@@ -81,9 +96,14 @@ body {
   line-height: 1.46;
 }
 
+.gallery, .filters {
+  text-align: center;
+}
+
 .section-header {
   color: var(--color3);
   font-size: 36px;
+  text-align: center;
 }
 
 .card {
@@ -97,6 +117,19 @@ body {
 
 .card-description {
   color: var(--color4);
+}
+
+.card,
+.gallery-image,
+.description,
+.link,
+.filter {
+  display: inline-block;
+  text-align: center;
+}
+
+.groups .card {
+  text-align: left;
 }
 
 .filter .button {
