@@ -76,10 +76,6 @@ body {
   line-height: 1.6;
 }
 
-.description-header {
-  font-weight: 700;
-}
-
 .description-content {
   color: var(--color4);
   line-height: 1.46;
@@ -87,7 +83,6 @@ body {
 
 .section-header {
   color: var(--color3);
-  font-weight: 700;
   font-size: 36px;
 }
 
